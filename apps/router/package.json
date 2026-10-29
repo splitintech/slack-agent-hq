@@ -9,7 +9,7 @@
   "dependencies": {
     "@slack-agent-hq/protocol": "*",
     "@slack/bolt": "^4.4.0",
-    "@slack/web-api": "^7.9.3"
+    "@slack/web-api": "^8.2.0"
   },
   "repository": {
     "type": "git",
