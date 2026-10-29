@@ -32,8 +32,10 @@ function env(name: string): string {
   return process.env[name] ?? "";
 }
 
-function threadOf(command: { thread_ts?: string; ts?: string }): string | undefined {
-  return command.thread_ts;
+function threadOf(command: object): string | undefined {
+  return "thread_ts" in command && typeof command.thread_ts === "string"
+    ? command.thread_ts
+    : undefined;
 }
 
 export function createRouterApp(config: HqConfig, store: ProjectStore) {

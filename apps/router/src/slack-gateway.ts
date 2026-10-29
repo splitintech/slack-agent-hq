@@ -47,13 +47,13 @@ export function slackGateway(client: WebClient): SlackGateway {
       return { ts: result.ts, channel: result.channel };
     },
     async uploadFile(args) {
-      await client.filesUploadV2({
+      const file = {
         channel_id: args.channel,
-        thread_ts: args.thread_ts,
         filename: args.filename,
         file: args.data,
         title: args.title ?? args.filename,
-      });
+      };
+      await client.filesUploadV2(args.thread_ts ? { ...file, thread_ts: args.thread_ts } : file);
     },
   };
 }

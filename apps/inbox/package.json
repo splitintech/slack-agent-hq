@@ -8,5 +8,14 @@
   },
   "dependencies": {
     "@slack-agent-hq/runtime": "*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/slack-agent-hq.git",
+    "directory": "apps/inbox"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/slack-agent-hq/issues"
+  },
+  "homepage": "https://github.com/splitintech/slack-agent-hq/tree/main/apps/inbox#readme"
 }

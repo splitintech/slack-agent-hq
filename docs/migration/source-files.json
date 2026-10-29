@@ -1,0 +1,749 @@
+{
+  "source_repository": "https://github.com/splitintech/open-internal-tools",
+  "source_commit": "f5ec32bc4d050bfbd3f01ecc53569038eb9ce308",
+  "product": "slack-agent-hq",
+  "files": [
+    {
+      "source": "docs/brand/login-banner.webp",
+      "target": "docs/brand/login-banner.webp",
+      "git_blob": "31976d3094940ec50285874b795d0ce826e90d11",
+      "mode": "100644",
+      "sha256": "b56095885258c6c0593f1cc373cb2447a71e51e4eef6687e9430a2188a8f8de9"
+    },
+    {
+      "source": "docs/brand/splitin-logo.png",
+      "target": "docs/brand/splitin-logo.png",
+      "git_blob": "807558c4206517d878dfe932315bf738317141fe",
+      "mode": "100644",
+      "sha256": "9e0954d3aa5ccfd94a358e61f9d0f18b2b80928c162d6a3228d9389769496a72"
+    },
+    {
+      "source": "slack-agent-hq/.gitignore",
+      "target": ".gitignore",
+      "git_blob": "83f0fd0476abd9876678343489a844643dd4d07d",
+      "mode": "100644",
+      "sha256": "7ac43c999083a9fd96ad1e3a8818d4b8eb0c1eb6fef55b9d2fa5f406dce8c948"
+    },
+    {
+      "source": "slack-agent-hq/LICENSE",
+      "target": "LICENSE",
+      "git_blob": "14fac913ccf80234b1848540089a3bbcb6e5283d",
+      "mode": "100644",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "source": "slack-agent-hq/README.md",
+      "target": "README.md",
+      "git_blob": "c1c744e503d65d3c7dba563ff436b1669f3fb57a",
+      "mode": "100644",
+      "sha256": "bb0c301c8cf6d4e343a0f7f19667c0c9638506830858cf44fdea13c98eeea5ca"
+    },
+    {
+      "source": "slack-agent-hq/apps/ci/package.json",
+      "target": "apps/ci/package.json",
+      "git_blob": "1ff96edcd09415cbd8695e57e6b8868fb998a578",
+      "mode": "100644",
+      "sha256": "16333ee94de6b860dd6bd539f89ed69bef45d84c7c00b1c18b3aca3e8518c39c"
+    },
+    {
+      "source": "slack-agent-hq/apps/ci/src/index.ts",
+      "target": "apps/ci/src/index.ts",
+      "git_blob": "53790f4ce55b6ff6cb7805058428b9102cf0d72d",
+      "mode": "100644",
+      "sha256": "273b11db8499d88f33fc78986bfa0963c2145f66b2ce379f9fe4f0cb5ebee5b8"
+    },
+    {
+      "source": "slack-agent-hq/apps/inbox/package.json",
+      "target": "apps/inbox/package.json",
+      "git_blob": "4651d0d602ba2682fc2630c0e92dceb6f3422a68",
+      "mode": "100644",
+      "sha256": "fc4b8bba762173b40da55f4e3a65b4cf8d42e9fa3cb23dd08ae7e785452054c4"
+    },
+    {
+      "source": "slack-agent-hq/apps/inbox/src/index.ts",
+      "target": "apps/inbox/src/index.ts",
+      "git_blob": "7373ce53c868cbcea5d689b91563ce0b77451f75",
+      "mode": "100644",
+      "sha256": "bc084a7469bb390f68e005a0b47431c52736d8c09a9a896dd0bc2ed0b1e2f26b"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/package.json",
+      "target": "apps/router/package.json",
+      "git_blob": "de048966e692894e307bfd5ed3e7464a97af18e6",
+      "mode": "100644",
+      "sha256": "b6b991c99e4a7c3d3d5fdf8a14c8b9e4dc897c41f5289e2a1e1c0e8ec9c47fe8"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/app.ts",
+      "target": "apps/router/src/app.ts",
+      "git_blob": "db63a1d572e2465066f267276ff9a9a08662ffc8",
+      "mode": "100644",
+      "sha256": "08aeeee5e044c16f71875c23958794f238d15d12fe9c99dee2a0f4f6570934f5"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/http.test.ts",
+      "target": "apps/router/src/http.test.ts",
+      "git_blob": "262adb7dcf5d5dab65d5e1533e5c46bd272ca4ee",
+      "mode": "100644",
+      "sha256": "a41ebfae714755617a1bf838167e249f7bb100e907829ba5c8c039803c9e2b90"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/http.ts",
+      "target": "apps/router/src/http.ts",
+      "git_blob": "ad3da4e08c0ca28a2e52fe6491bcb0fcac1d0082",
+      "mode": "100644",
+      "sha256": "5a518ec8c4df1e77992303c0b4445d4aeda0b1e82c4dfa2a429cdb7b63aeeb82"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/index.ts",
+      "target": "apps/router/src/index.ts",
+      "git_blob": "f9dd546c261038d6eb1aa5b3c6e83ae56ae79197",
+      "mode": "100644",
+      "sha256": "652c26be396354f39bd983cb0dd43def78a95fd8848959db0fb2b895d1082600"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/projects.test.ts",
+      "target": "apps/router/src/projects.test.ts",
+      "git_blob": "dc28a1d5f3fda957ae4cd1baa525ed46b4d0e5ea",
+      "mode": "100644",
+      "sha256": "5c27454cb0d2b7533383eaf0541fe9df68bb77061fe976eb6ffee542fe08bdd9"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/projects.ts",
+      "target": "apps/router/src/projects.ts",
+      "git_blob": "da24308d9ee5591babaaedcf758faf036e2c2d4f",
+      "mode": "100644",
+      "sha256": "d5365e18bf9c3e2f16129a6f74252b6d9a744e160de845e7b386533a6167695d"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/src/slack-gateway.ts",
+      "target": "apps/router/src/slack-gateway.ts",
+      "git_blob": "40b8895bdd9f42147d6346aaf1814b794b0df65b",
+      "mode": "100644",
+      "sha256": "8d0e3d298a7d58263df1c332c1c3d60fb88a5434e380c5866274f8ca0d236646"
+    },
+    {
+      "source": "slack-agent-hq/apps/router/tsconfig.json",
+      "target": "apps/router/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "slack-agent-hq/apps/triage/package.json",
+      "target": "apps/triage/package.json",
+      "git_blob": "1c924b246d4dc2c97487169e1c0e45b589d8ca1e",
+      "mode": "100644",
+      "sha256": "b64fcfa266439e6a1c555add678248f69f9590e0118c7fc50db533927e317829"
+    },
+    {
+      "source": "slack-agent-hq/apps/triage/src/index.ts",
+      "target": "apps/triage/src/index.ts",
+      "git_blob": "46801941afb6cfc3bfd7e89c0daba4b32cc96700",
+      "mode": "100644",
+      "sha256": "bcd3fde2933d2d6515b15e2cebde7a8cebdfeeb70429d781e9a1f35269398cec"
+    },
+    {
+      "source": "slack-agent-hq/apps/watchdog/package.json",
+      "target": "apps/watchdog/package.json",
+      "git_blob": "94b314ab68eeb820e80b62ae1a62e1130a76190a",
+      "mode": "100644",
+      "sha256": "985921e5270e07666ac9c112da73f60ad03a4a07e46bb1f8ad143315868d0181"
+    },
+    {
+      "source": "slack-agent-hq/apps/watchdog/src/index.ts",
+      "target": "apps/watchdog/src/index.ts",
+      "git_blob": "7bf81978f4aaed8d12c81fc475c38c7defba247d",
+      "mode": "100644",
+      "sha256": "6759526591cdcd011b5003bd2e6c2ce4e2ecc28f8c5c8f2947529a6bf4aacaba"
+    },
+    {
+      "source": "slack-agent-hq/config/.gitkeep",
+      "target": "config/.gitkeep",
+      "git_blob": "7020b4098e1da5fbe998138380303dc9077671ba",
+      "mode": "100644",
+      "sha256": "35c548228a607f2afbc59547ed04534713b509ae042403f66306ae7a2b764d1e"
+    },
+    {
+      "source": "slack-agent-hq/config/examples/agents.yaml",
+      "target": "config/examples/agents.yaml",
+      "git_blob": "fd127ae15558afe107bc61833bf956b453307257",
+      "mode": "100644",
+      "sha256": "7efc756c705228d981002954228291d9149b6aa93a73df48a773b598a1c30aad"
+    },
+    {
+      "source": "slack-agent-hq/config/examples/domains.yaml",
+      "target": "config/examples/domains.yaml",
+      "git_blob": "a87dd474f8a145b25c385443f78232e40eab64ae",
+      "mode": "100644",
+      "sha256": "6f12fc6b3bd8960c8f84767f7eaa363d5193e8b40aeca38d5e8e7a5f0f6c5757"
+    },
+    {
+      "source": "slack-agent-hq/config/examples/integrations.yaml",
+      "target": "config/examples/integrations.yaml",
+      "git_blob": "bb849bbaca70c88f285f8e2970912d706e7bdd06",
+      "mode": "100644",
+      "sha256": "de7991802e02e6b1f83c9b5fa357285ae840acd418bcd9e19163b0950cce7687"
+    },
+    {
+      "source": "slack-agent-hq/config/examples/loops.yaml",
+      "target": "config/examples/loops.yaml",
+      "git_blob": "32f41457ad8ce058abd9a072c6d47d87bbfbb6a0",
+      "mode": "100644",
+      "sha256": "08da7d78281ae03074e0c9cae7fa9982c675de6e7d9e901b884b814068610d1b"
+    },
+    {
+      "source": "slack-agent-hq/docs/CURSOR_AUTOMATIONS.md",
+      "target": "docs/CURSOR_AUTOMATIONS.md",
+      "git_blob": "4a1a54d4ca33b3d730f430b8b033f52115e41876",
+      "mode": "100644",
+      "sha256": "71fe9908ce7fa1a11d744c9e34d974e8f573777453911b09ef6872b0e8731f36"
+    },
+    {
+      "source": "slack-agent-hq/docs/HANDOFF.md",
+      "target": "docs/HANDOFF.md",
+      "git_blob": "afefb7729b30fc3cd2a4f20c7b9fe1fe25fc781f",
+      "mode": "100644",
+      "sha256": "f9b0ce83727f56f8350fc823151f4603c424d14d7062fbe41556eb3e76046d6e"
+    },
+    {
+      "source": "slack-agent-hq/docs/IDEATE_LOOP_ENGINEERING.md",
+      "target": "docs/IDEATE_LOOP_ENGINEERING.md",
+      "git_blob": "6f29ba08fb087131f1aaf21006dcdad7032867e0",
+      "mode": "100644",
+      "sha256": "5712c67afba9a431825db7177c5431f58d2a27cf9ac70523cebce54962957153"
+    },
+    {
+      "source": "slack-agent-hq/docs/WORKSPACE_SETUP.md",
+      "target": "docs/WORKSPACE_SETUP.md",
+      "git_blob": "76d5725ee91be682d25cd1cecb0d9dbe966e991c",
+      "mode": "100644",
+      "sha256": "7123cb55504a761ad9eca6d429f7e3ab32feb61b1c1d4ec74f83e198d3f51a1e"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/CHATGPT.md",
+      "target": "docs/pins/CHATGPT.md",
+      "git_blob": "66a952f2b1d2f5be1b98041313dca21dffe90809",
+      "mode": "100644",
+      "sha256": "b5911d2f4ce999b52a5c1f1d00d642023bebf02b33c289571e7c45cae7c51543"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/CLAUDE.md",
+      "target": "docs/pins/CLAUDE.md",
+      "git_blob": "47e8ef197b6076ad304711db54e92ad84cbf1d3b",
+      "mode": "100644",
+      "sha256": "95c91d212278d2534f46c325a07fc3edcc3faed313593fa7ab46b99f461c7f79"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/CODEX.md",
+      "target": "docs/pins/CODEX.md",
+      "git_blob": "b00a851c009226aef06423e966c59dc3dd890841",
+      "mode": "100644",
+      "sha256": "c53d3241c103c6bc5a43566b4341c2f51f4dafb02f475915aa2f553c9e867f56"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/CURSOR.md",
+      "target": "docs/pins/CURSOR.md",
+      "git_blob": "5707fd3f831f52d8d1201a835bbb823cc10774ea",
+      "mode": "100644",
+      "sha256": "ae820a1666b8691523aac251c766b932b6119597f11e479a2250fef3d6a82d95"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/IDEATE_ONE_PAGER.md",
+      "target": "docs/pins/IDEATE_ONE_PAGER.md",
+      "git_blob": "946a7405833434e627ce2a2003076a6004a235b7",
+      "mode": "100644",
+      "sha256": "9ce110ed2b5e470d07faf04fcd3ca1e5b1c14e7aff35ae4dbba3602abeb361c1"
+    },
+    {
+      "source": "slack-agent-hq/docs/pins/INNER_LOOPS.md",
+      "target": "docs/pins/INNER_LOOPS.md",
+      "git_blob": "1dfe670b799bcd04e78e585f9548a4f19c7c31d1",
+      "mode": "100644",
+      "sha256": "ffbcbd37bb65a1d4ba0660bbae766f659319435a432db754e5db0db67fdf0999"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/BACKEND.md",
+      "target": "docs/templates/BACKEND.md",
+      "git_blob": "2a31b62c15bc2395938714473ebb1656b4ab16cf",
+      "mode": "100644",
+      "sha256": "d2ea8d3a225c01b4880004b7e8ada81d888080b5a413573182dbcd92dbba8c35"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/DESKTOP.md",
+      "target": "docs/templates/DESKTOP.md",
+      "git_blob": "58a2b3f5b99df0834fc4049569e8c280da5595f1",
+      "mode": "100644",
+      "sha256": "46df222870fc8bedb414df9ce6087e572c8feca0d85598584ab9bb002c936886"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/LANGUAGE.md",
+      "target": "docs/templates/LANGUAGE.md",
+      "git_blob": "ba906b37b472597a75d1447d833ab6e613b2c7a0",
+      "mode": "100644",
+      "sha256": "ffce17e071d5c603018970c0b4ccbcd393245826bab779f74003f33f946697c9"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/MEMORY.md",
+      "target": "docs/templates/MEMORY.md",
+      "git_blob": "ac783bce8b46e866875f67d57355c560371c9a76",
+      "mode": "100644",
+      "sha256": "2ed892e16bea9e7dc8da688eb84b81695f67104fd962cea5f71c4f9e74bd820e"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/PRD.md",
+      "target": "docs/templates/PRD.md",
+      "git_blob": "3a3d5394cc43f65c2bdaee46fb56e3a693d66d71",
+      "mode": "100644",
+      "sha256": "f05bb679c93e14d58251f71858861c6ecb1979258522c3c755db81b7aba29d23"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/PWA.md",
+      "target": "docs/templates/PWA.md",
+      "git_blob": "d69dd78cac63ecc974afa98a18d94f1708706114",
+      "mode": "100644",
+      "sha256": "1b078a7ee283f5e424a4791b3e62dcede7d91512384c8843148a30c3f3a4300a"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/SEO.md",
+      "target": "docs/templates/SEO.md",
+      "git_blob": "b0afe879ce68a0a765eff3b5e1ab4de2ae98e08a",
+      "mode": "100644",
+      "sha256": "40e952aaf8303656c26f767ed2ef32a58505b746f467df1acba9a4844c329238"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/TOOLS.md",
+      "target": "docs/templates/TOOLS.md",
+      "git_blob": "ed93b5e206860a70b27ef7957ca06ea5423d310a",
+      "mode": "100644",
+      "sha256": "f631e97309d91736e6e88110043b2ed57391c295cf07c6b0ee7d485c41a2c392"
+    },
+    {
+      "source": "slack-agent-hq/docs/templates/VIDEO.md",
+      "target": "docs/templates/VIDEO.md",
+      "git_blob": "3af717e1da6940e9c04ce69b534606b1ce355161",
+      "mode": "100644",
+      "sha256": "4aa5cfb3510e74ba40b423ecd3da89b5a6685814cbf0d4c87d251df5ce98ac14"
+    },
+    {
+      "source": "slack-agent-hq/env.example",
+      "target": "env.example",
+      "git_blob": "0aab2950d957828f7323ad41d23633bea70930f7",
+      "mode": "100644",
+      "sha256": "3c800cb20a03bd6bb5ad77aca637f80a245e09340a8ffe64ca470b9a656157dc"
+    },
+    {
+      "source": "slack-agent-hq/install.sh",
+      "target": "install.sh",
+      "git_blob": "6bdd51f3ce4e9d50e572187723f11ff6e77c3540",
+      "mode": "100755",
+      "sha256": "d940de0a674f1cd367b784493ee50fdaabe40c36d3b06621d0ed6db969680046"
+    },
+    {
+      "source": "slack-agent-hq/manifests/ci.yaml",
+      "target": "manifests/ci.yaml",
+      "git_blob": "59d0fb58fc8494f216b5489a343ba276fa3809c6",
+      "mode": "100644",
+      "sha256": "2738cb08c4336899ad9865e7292130d14beceb0c75c14a6eaa8a7b55cfc5aa2d"
+    },
+    {
+      "source": "slack-agent-hq/manifests/inbox.yaml",
+      "target": "manifests/inbox.yaml",
+      "git_blob": "a733de5dd139d86f787ee19b0c31421a903114e0",
+      "mode": "100644",
+      "sha256": "01cdf1a0ba78357fbe80d48e1346f8f6f6bda5520adb42b05e96debef1e6f645"
+    },
+    {
+      "source": "slack-agent-hq/manifests/router.yaml",
+      "target": "manifests/router.yaml",
+      "git_blob": "4f1fd6b2fd90ed404b58fa648d50ca8d1f615ab2",
+      "mode": "100644",
+      "sha256": "d9253cd7035bf340d7cdd84df66491f78c22efeb6696cac9a07821fcc1bd36f6"
+    },
+    {
+      "source": "slack-agent-hq/manifests/triage.yaml",
+      "target": "manifests/triage.yaml",
+      "git_blob": "f88b0133f99617f51ae196e380d77a2c021da4ae",
+      "mode": "100644",
+      "sha256": "550f2c115f940d16d6fc46678166e6a6aad44359d78ae2838dec3bae1a4f1e00"
+    },
+    {
+      "source": "slack-agent-hq/manifests/watchdog.yaml",
+      "target": "manifests/watchdog.yaml",
+      "git_blob": "65f1f26bb5a0779987bcd4dffd0ccb413b406193",
+      "mode": "100644",
+      "sha256": "cf71142e14ec7eb0badeb108641a804e0e351e38bfc4aa27591306c11c26dd29"
+    },
+    {
+      "source": "slack-agent-hq/package-lock.json",
+      "target": "package-lock.json",
+      "git_blob": "4f93d1fff09fe3a22cd3a2ee972874554e1a4919",
+      "mode": "100644",
+      "sha256": "7cde4f6e905ea8d34f1ec0ce81fd88c2e73bd9e40edacadc3a346eb79afbadd3"
+    },
+    {
+      "source": "slack-agent-hq/package.json",
+      "target": "package.json",
+      "git_blob": "002e987e2beb2570c994a8b060e07f2b48b4adff",
+      "mode": "100644",
+      "sha256": "cdf695ccfe96458ad3619733cb697a11270943a70d54970cac157491aa75c423"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/package.json",
+      "target": "packages/protocol/package.json",
+      "git_blob": "8e5055e01b27620338914c99ee7f0506edcdbfd6",
+      "mode": "100644",
+      "sha256": "c8bc5877c5b2dfc9d712cf0d1ce10cf15922a1c1dd9774acdae6defe8e91ec83"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/acceptance.test.ts",
+      "target": "packages/protocol/src/acceptance.test.ts",
+      "git_blob": "90f3aafe4f82021535b39a914449b8201cd8ee7a",
+      "mode": "100644",
+      "sha256": "8ca4d2d3c88b37572d31bb23d4d45ada03723080f9bab223a28427fd924064f3"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/audit.ts",
+      "target": "packages/protocol/src/audit.ts",
+      "git_blob": "c71d5ae1b9a522cde2b4ff0071bfd8fa5dee1977",
+      "mode": "100644",
+      "sha256": "387e3ceecb2a5a183b8da75ba432d09bf137bb8943d28e24c13b7463a1615b69"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/bots.test.ts",
+      "target": "packages/protocol/src/bots.test.ts",
+      "git_blob": "a32324464117d6c6641c90d106d57345993b2be0",
+      "mode": "100644",
+      "sha256": "30864ed70b9af2f9691f4e294a97183f2fe491626bb0618d4d7415ba3ee55f6f"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/bots.ts",
+      "target": "packages/protocol/src/bots.ts",
+      "git_blob": "9ea9a7e4f4f04891af00720cf624cb8ce965df1e",
+      "mode": "100644",
+      "sha256": "2779bb18f60ced63a468a2134e1f5b9146cb2ab3092352e032fdbdc8c6601eb4"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/budget.test.ts",
+      "target": "packages/protocol/src/budget.test.ts",
+      "git_blob": "14f961a0fa1213248f658d63f4cf5163a5fbd996",
+      "mode": "100644",
+      "sha256": "130320524a4abde67afa06749a7745689fc1ce514da192bb9866d0da85b1991a"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/budget.ts",
+      "target": "packages/protocol/src/budget.ts",
+      "git_blob": "e21e1510140fdc816f1b51dc72152e418548337a",
+      "mode": "100644",
+      "sha256": "a391bcb1ed47d92381022bbdea43d70c87f0ad783029212bdb42ed2b249b52c8"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/classifier.test.ts",
+      "target": "packages/protocol/src/classifier.test.ts",
+      "git_blob": "6b483caa7d3cef38f79d053c349e32dfa9833cbe",
+      "mode": "100644",
+      "sha256": "45e5eb1c5feab6fdd509be830e33f047f58108df20a4c3815dc0608e5ab92aa5"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/classifier.ts",
+      "target": "packages/protocol/src/classifier.ts",
+      "git_blob": "a5645abd27edbed1b4c0d6c56b60fa5713008307",
+      "mode": "100644",
+      "sha256": "66f05e26d499f6d746b9acc42933c50de2bd76e2597bd497bf3ae4ef5932bb3e"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/config.ts",
+      "target": "packages/protocol/src/config.ts",
+      "git_blob": "ccb9f2250fe735c3cd77d131eca5fa9a602074bc",
+      "mode": "100644",
+      "sha256": "61b2fa3c60f84dab4b0c31a67c3a00d0db14c8b5cf6b602ce34c8d6b73641a73"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/defaults.ts",
+      "target": "packages/protocol/src/defaults.ts",
+      "git_blob": "17f32a3ddc9fa746856570461f00f09644292d70",
+      "mode": "100644",
+      "sha256": "c9126e72f0044065a043358818f92911cc234ba26b64ade9e7c716e5578a0502"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/dod.test.ts",
+      "target": "packages/protocol/src/dod.test.ts",
+      "git_blob": "2f94d192e6c55a13386b446fe1411cf8e40e4827",
+      "mode": "100644",
+      "sha256": "89bda24501c60421af4313c697d4ee193164162003b3e74eb13a011d03bba003"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/dod.ts",
+      "target": "packages/protocol/src/dod.ts",
+      "git_blob": "53ece5f292d6a713b8bff2c19e8170b6b192e78c",
+      "mode": "100644",
+      "sha256": "ad299ae48acd9a2c88e8a6b82409d11021a362453c9574af3c81d88051400c20"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/github.ts",
+      "target": "packages/protocol/src/github.ts",
+      "git_blob": "05616a579ecb83f6a85bf1f5d4a8cb9bf061dc7c",
+      "mode": "100644",
+      "sha256": "d4945d13ae5949ae7e6ddcf39fb3f1a91415fe60fa6e9e83c9e4a6b8c93c70b5"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/handoff.test.ts",
+      "target": "packages/protocol/src/handoff.test.ts",
+      "git_blob": "3c338ac589228a9e22f7cbabd8d2a4c7cd186fee",
+      "mode": "100644",
+      "sha256": "5d8b8136959722a14122c05eddb59936605fa94b3ded09b7359fab5178a3cecc"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/handoff.ts",
+      "target": "packages/protocol/src/handoff.ts",
+      "git_blob": "b7687f518a1274a0c3975c3152b1f9d7cb64c00e",
+      "mode": "100644",
+      "sha256": "30f2feb801194cb803bbb8526bf9a98f65372f37dd4404db0d61adf96cbb1aaa"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/ideate-message.test.ts",
+      "target": "packages/protocol/src/ideate-message.test.ts",
+      "git_blob": "22602b8021822b7fbca78ca29739e6239a94075c",
+      "mode": "100644",
+      "sha256": "545f7f71a5d527a2e72f89622e10d83c1a6e700be36ad6280016d1579135a41e"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/ideate-message.ts",
+      "target": "packages/protocol/src/ideate-message.ts",
+      "git_blob": "0af9254b2f50f93cbd47b0e6a27990b57a705e77",
+      "mode": "100644",
+      "sha256": "d54bda67ac5b99e8f3a8e763f6d2b1f9a1af60e81dff77c6462f36945641361a"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/index.ts",
+      "target": "packages/protocol/src/index.ts",
+      "git_blob": "c3f9a18beca19266b56ad1d428a6489c2a0a9c7e",
+      "mode": "100644",
+      "sha256": "47dde7bd700325f17328bd999cf17f14accf3cf336d37c2374703464327bc40d"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/integrations.test.ts",
+      "target": "packages/protocol/src/integrations.test.ts",
+      "git_blob": "40da5a01c218df38fe281af75df172775f0a1a16",
+      "mode": "100644",
+      "sha256": "c675fd7bd0f27e6cfdf00d1c5978a719f04a242a121de4db131f0e3b4d0abe1c"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/integrations.ts",
+      "target": "packages/protocol/src/integrations.ts",
+      "git_blob": "4e046b2d30d4330e8d35148b0e4e53961543ea57",
+      "mode": "100644",
+      "sha256": "8f8b5e701cd9204b62e70d680ab7e00f1ea7e5c5acc05529eabda0fb69f6a141"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/jobs.test.ts",
+      "target": "packages/protocol/src/jobs.test.ts",
+      "git_blob": "99f063e5d35446014e835a0ff59e3b8ecca6d5dc",
+      "mode": "100644",
+      "sha256": "c7edf3267fbd5b2af178b6240c2f075404c7cbd299a25fa1334027c95ef6d8f8"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/jobs.ts",
+      "target": "packages/protocol/src/jobs.ts",
+      "git_blob": "550c3eb7ad230c19c3f243b3f3954c23c156a7a7",
+      "mode": "100644",
+      "sha256": "769492240feea3053eede8c3075b1cd259f0b28b7b80a7a1582319ddee8298c0"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/memory.ts",
+      "target": "packages/protocol/src/memory.ts",
+      "git_blob": "3135cc19e2b9d8af5784910948a17f9bace08ab9",
+      "mode": "100644",
+      "sha256": "e5f2c434b272a519710b814a3e87ebd5288ddf7dae555ff4c3125eb52d55b52c"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/nags.ts",
+      "target": "packages/protocol/src/nags.ts",
+      "git_blob": "da4b73ec83402d295057a270fbbbc7df47af8be1",
+      "mode": "100644",
+      "sha256": "73847decbfad78925abf3d1824e8f18dfa887792f7114038f12a6d6a2460a30c"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/phase.test.ts",
+      "target": "packages/protocol/src/phase.test.ts",
+      "git_blob": "27e810fce4697d2d5d52e0c1d0119ae9a7eda24c",
+      "mode": "100644",
+      "sha256": "7f8a17a365b4d3216df0360be47490b583bbf0d296b2e784cdba127b1fef0678"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/phase.ts",
+      "target": "packages/protocol/src/phase.ts",
+      "git_blob": "d74c2824e0721240ae7f9d6cdcea3f42a2a7a225",
+      "mode": "100644",
+      "sha256": "06089a546bbed700820f04304c19ec873459dc8d102fc40d565f660a2123168a"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/redact.ts",
+      "target": "packages/protocol/src/redact.ts",
+      "git_blob": "49e08a81ccd54ca2f3b0f6551390724cc6c6b20a",
+      "mode": "100644",
+      "sha256": "bf66b55c2e774d6eccfe435546eb202e32bff89ddbdccde26203e09a00863c32"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/routing.test.ts",
+      "target": "packages/protocol/src/routing.test.ts",
+      "git_blob": "b37d29cebb7bb513b9eff72d5fc22b0ffc1e794d",
+      "mode": "100644",
+      "sha256": "eeed3ea37b6d889bce6cff53007187c9ff8cb59b9358cbae94736d8e3a766762"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/routing.ts",
+      "target": "packages/protocol/src/routing.ts",
+      "git_blob": "e96eff9e040d0c11c71993c664b9193296a535a3",
+      "mode": "100644",
+      "sha256": "51c983cfd581a344a2af8e24142f892c2804ede0ca498793e72ff524b1eef0ff"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/seo-check.ts",
+      "target": "packages/protocol/src/seo-check.ts",
+      "git_blob": "3dd874f0403ca8e4dd9e29e9c3b3cdab85c02477",
+      "mode": "100644",
+      "sha256": "a801cb8e0b212a96c2d558702e53e2a7044db7a62e82b728545c87a7ab4a6e33"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/specialist-loops.ts",
+      "target": "packages/protocol/src/specialist-loops.ts",
+      "git_blob": "01e29eb07b0e0d977b524ee18e701c965e42a583",
+      "mode": "100644",
+      "sha256": "a47357f90005c2c0093f806b90a0a4fd1c69381ead0f09a40b1ea323888ca08a"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/state-blocks.ts",
+      "target": "packages/protocol/src/state-blocks.ts",
+      "git_blob": "46a777e6c717f1f760fdbf55df26d0b9582270eb",
+      "mode": "100644",
+      "sha256": "b6732f369b0f5422c5da2d90c9e4e52ca3e322d4e1191ba47eb0f3df402265dd"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/store.test.ts",
+      "target": "packages/protocol/src/store.test.ts",
+      "git_blob": "5735e63cad584fb4292c6ddfb3c84a0224096a85",
+      "mode": "100644",
+      "sha256": "bdd29e157de92200ce91813088c06d22b32e5b43bbbd8023889bc287cb1a8aac"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/store.ts",
+      "target": "packages/protocol/src/store.ts",
+      "git_blob": "e468459f867fe04bb79aa5077a80f56fa71eb2fe",
+      "mode": "100644",
+      "sha256": "d0d6e2fb7532a6403afc6762d05197f6ec998c738765e4148e47202dff32d38c"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/types.ts",
+      "target": "packages/protocol/src/types.ts",
+      "git_blob": "a567619797c3bab74a9fb493d1079f676ac8bd39",
+      "mode": "100644",
+      "sha256": "6113da5bdc6be12117872beb1c82ad0b2f72db23a4976460523822b7f42abbce"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/zip.test.ts",
+      "target": "packages/protocol/src/zip.test.ts",
+      "git_blob": "bc94506cb1415a099e97bb26d609d5aa2b8d2821",
+      "mode": "100644",
+      "sha256": "130568b52406fb1051f5e2ea79a4c659e0dbc18301d8ef84172ab1a98a039d89"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/src/zip.ts",
+      "target": "packages/protocol/src/zip.ts",
+      "git_blob": "3b103e604ab4acd8e1e4d11aa0eb6dc42cecf9e4",
+      "mode": "100644",
+      "sha256": "c395218dc276b3bdb917597defc61eab3ea0b41ff375329401179aeb2281e4b0"
+    },
+    {
+      "source": "slack-agent-hq/packages/protocol/tsconfig.json",
+      "target": "packages/protocol/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "slack-agent-hq/packages/runtime/package.json",
+      "target": "packages/runtime/package.json",
+      "git_blob": "736dc515ca9927befab431733d05eac5ed7b3a96",
+      "mode": "100644",
+      "sha256": "d54189c36b79c993cc18984552d83988293916947700c02de6b2b2ebf359c1fa"
+    },
+    {
+      "source": "slack-agent-hq/packages/runtime/src/index.ts",
+      "target": "packages/runtime/src/index.ts",
+      "git_blob": "4f2fb8e94c934ffe5191f1517daced0235eeeff4",
+      "mode": "100644",
+      "sha256": "6e04582a538c288a8fe86752fc5689f68d69d1a93da23b22c1922d802b1eecd5"
+    },
+    {
+      "source": "slack-agent-hq/packages/runtime/tsconfig.json",
+      "target": "packages/runtime/tsconfig.json",
+      "git_blob": "9e25e6ece9a77e81dcf7ee3065d787257182501d",
+      "mode": "100644",
+      "sha256": "88020c5d0c639e9fca3c8cc0425dc6233bbb30b14c5a0cb5dcb7d7530d4b788f"
+    },
+    {
+      "source": "slack-agent-hq/scripts/bootstrap-workspace.ts",
+      "target": "scripts/bootstrap-workspace.ts",
+      "git_blob": "3c317894b025b69286682c9906f5b086532fd377",
+      "mode": "100644",
+      "sha256": "e6baebed0c995c926614ff5ec3754f75bb068a6327da6877ccd6f014b81aceee"
+    },
+    {
+      "source": "slack-agent-hq/scripts/inventory.ts",
+      "target": "scripts/inventory.ts",
+      "git_blob": "cddb138d0c560696fe4b5f454a8f06949a0b2483",
+      "mode": "100644",
+      "sha256": "0e356ec61800c62f59fc68b75f2773895c230b8490635c66a8b01d4915122938"
+    },
+    {
+      "source": "slack-agent-hq/scripts/load-env.ts",
+      "target": "scripts/load-env.ts",
+      "git_blob": "87f08086d77dec5d8dfc2de0e8a98826b970f5dc",
+      "mode": "100644",
+      "sha256": "ae9b099bac0f42041f6a40047a907621ca76076243fdde15271a5c130936c7ab"
+    },
+    {
+      "source": "slack-agent-hq/scripts/phase0.test.ts",
+      "target": "scripts/phase0.test.ts",
+      "git_blob": "52fc43bba7392d48cc9ba416fc4d4b670782dce3",
+      "mode": "100644",
+      "sha256": "203705dd8866ee2cf60bbca4adabbcd4adce23bb110900285f30f80c8f9641d6"
+    },
+    {
+      "source": "slack-agent-hq/scripts/phase0.ts",
+      "target": "scripts/phase0.ts",
+      "git_blob": "4ea1ad9fcd269a9831a3854bcf05ea2301916596",
+      "mode": "100644",
+      "sha256": "aaacf43796d9bb04428e096c2cbcf8a10514c855d2f79446e1a54b50c9dd5bb0"
+    },
+    {
+      "source": "slack-agent-hq/scripts/start-all.ts",
+      "target": "scripts/start-all.ts",
+      "git_blob": "763585e4fd4bb5778685d741446d8d41929bf8b6",
+      "mode": "100644",
+      "sha256": "08e65fe30bb3e03e1538831567e2c330dd389c90ca715a4c1835310464f67e52"
+    },
+    {
+      "source": "slack-agent-hq/tsconfig.base.json",
+      "target": "tsconfig.base.json",
+      "git_blob": "3be301deb023b6baa257314232bc833e51856603",
+      "mode": "100644",
+      "sha256": "56542c0b0fc60e56ffa66971950014ea27fe4d619a83f6c3cd65a31ac2f96d55"
+    },
+    {
+      "source": "slack-agent-hq/tsconfig.json",
+      "target": "tsconfig.json",
+      "git_blob": "dc2058399c6299abc61ff5f3a5cff692aecabacc",
+      "mode": "100644",
+      "sha256": "879660073a4a50dbb558378a538b6ec4bdec9da52e8b92f48eaa873a88c8898f"
+    },
+    {
+      "source": "slack-agent-hq/vitest.config.ts",
+      "target": "vitest.config.ts",
+      "git_blob": "6b0724785dab2d99ced579bad493db94635220fa",
+      "mode": "100644",
+      "sha256": "a447b6191f8e6707981f61696c089963d419451789afbdaf0f9496593db8f7e6"
+    }
+  ]
+}

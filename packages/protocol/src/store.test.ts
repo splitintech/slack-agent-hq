@@ -62,7 +62,7 @@ describe("ProjectStore", () => {
       prompt_hash: null,
     });
     expect(store.countOpenJobs(a.project_id)).toBe(1);
-    store.recordBudget({ project_id: a.project_id, delta_cents: 100, model: "gpt", reason: "plan" });
+    store.recordBudget({ project_id: a.project_id, run_id: null, delta_cents: 100, model: "gpt", reason: "plan" });
     const again = store.getById(a.project_id)!;
     expect(again.spent_usd_cents).toBe(100);
     expect(projectsOverBudget(store).map((p) => p.project_id)).toContain(a.project_id);

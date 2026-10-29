@@ -9,5 +9,14 @@
   "dependencies": {
     "@slack-agent-hq/protocol": "*",
     "@slack/bolt": "^4.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/slack-agent-hq.git",
+    "directory": "packages/runtime"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/slack-agent-hq/issues"
+  },
+  "homepage": "https://github.com/splitintech/slack-agent-hq/tree/main/packages/runtime#readme"
 }

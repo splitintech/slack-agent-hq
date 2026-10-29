@@ -8,5 +8,14 @@
   },
   "dependencies": {
     "yaml": "^2.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splitintech/slack-agent-hq.git",
+    "directory": "packages/protocol"
+  },
+  "bugs": {
+    "url": "https://github.com/splitintech/slack-agent-hq/issues"
+  },
+  "homepage": "https://github.com/splitintech/slack-agent-hq/tree/main/packages/protocol#readme"
 }

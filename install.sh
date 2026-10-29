@@ -12,8 +12,8 @@ Usage: ./install.sh
 Copies example config, creates .env from env.example if missing, and runs npm install.
 This folder is self-contained. Other users:
 
-  git clone https://github.com/splitintech/open-internal-tools.git
-  cd open-internal-tools/slack-agent-hq
+  git clone https://github.com/splitintech/slack-agent-hq.git
+  cd slack-agent-hq
   ./install.sh
 
 Next: edit config/*.yaml and .env, create Slack apps from manifests/, then npm start.
@@ -27,7 +27,7 @@ if [[ "${1:-}" == "--help" || "${1:-}" == "-h" ]]; then
 fi
 
 if ! command -v node >/dev/null 2>&1; then
-  echo "error: Node.js >= 20 is required." >&2
+  echo "error: Node.js >= 22.13 is required." >&2
   exit 1
 fi
 
