@@ -9,7 +9,7 @@
   "dependencies": {
     "@slack-agent-hq/protocol": "*",
     "@slack-agent-hq/runtime": "*",
-    "node-cron": "^3.0.3"
+    "node-cron": "^4.6.0"
   },
   "repository": {
     "type": "git",
